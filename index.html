@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Impuestos</h1>
+    <div class="container">
+
+    
+    <div class="input-container card">
+        
+        <label for="monto">Monto:</label><br>
+        <input type="number" id="monto" placeholder="Ingrese el monto">
+        <br>
+        <label for="ad-valorem">Ad / Valorem:</label><br>
+        <input type="number" id="ad-valorem" placeholder="Ingrese el porcentaje">
+        <br>
+        <label for="impuesto-consumo">Impuesto Selectivo al Consumo:</label><br>
+        <input type="number" id="impuesto-consumo" placeholder="Ingrese el porcentaje">
+        <br>
+        <label for="iva">Impuesto General a las Ventas:</label><br>
+        <input type="number" id="iva" placeholder="Ingrese el porcentaje">
+        <br>
+        <label for="impuesto-municipal">Impuesto de Promoción Municipal:</label><br>
+        <input type="number" id="impuesto-municipal" placeholder="Ingrese el porcentaje">
+        <br>
+        <label for="seguro">Seguro:</label><br>
+        <input type="number" id="seguro" placeholder="Ingrese el porcentaje">
+        <br>
+        <button onclick="calcularImpuestos()">Calcular</button>
+    
+    </div>
+    
+   
+    <div class="result-container card">
+        <h3>Add Valorem</h3>
+        <p id="ad-valorem-calc"></p><br>
+        <h3></h3>
+        <p id="impuesto-consumo-calc"></p><br>
+        <h3>Impuesto al consumo</h3>
+        <p id="iva-calc"></p><br>
+        <h3>IGV</h3>
+        <p id="impuesto-municipal-calc"></p><br>
+        <h3>Impuesto municipal</h3>
+        <p id="seguro-calc"></p><br>
+        <h3>Seguro Local</h3>
+        <p id="total-impuestos"></p><br>
+        <h3>Total de impuestos</h3>
+        <p id="precio-total"></p>
+    </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=51925566082&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ti%20<3." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
